@@ -16,7 +16,7 @@ from dataclasses import dataclass, field
 from enum import Enum, auto
 from typing import Any, Callable, Dict, List, Optional, Tuple, Type
 
-from .genome import Gene, Genome
+from .genome import Gene, GeneType, Genome
 
 
 # Type alias for fitness functions
@@ -80,7 +80,7 @@ class FitnessConfig:
     
     # Adaptive fitness
     adaptive_scaling: bool = True      # Use adaptive fitness scaling
-   elitism_count: int = 2             # Number of elite individuals
+    elitism_count: int = 2             # Number of elite individuals
     
     # Task-specific
     multi_objective: bool = True        # Use multi-objective evaluation
