@@ -1,0 +1,16 @@
+# Helix - Self-Replicating Code Evolution Engine
+
+# Core dependencies
+numpy>=1.20.0
+
+# Optional dependencies for visualization
+# Pillow>=9.0.0  # For GIF export
+# cairosvg>=2.5.0  # For SVG rendering
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
