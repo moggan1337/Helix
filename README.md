@@ -8,6 +8,24 @@
 
 **Helix** is a biological-inspired genetic programming framework that evolves code through natural selection, mutation, and sexual reproduction. Named after the DNA double helix, it treats code as genetic material that can mutate, recombine, and adapt to solve complex problems.
 
+## 🎬 Demo
+![Helix Demo](demo.gif)
+
+*Genetic programming with DNA-inspired evolution*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Genome Editor | ![genome](screenshots/genome.png) |
+| Fitness Graph | ![fitness](screenshots/fitness.png) |
+| Evolution Tree | ![tree](screenshots/evolution-tree.png) |
+
+## Visual Description
+Genome editor shows code genes with mutation highlighting. Fitness graph displays selection pressure over generations. Evolution tree visualizes population relationships and crossover points.
+
+---
+
+
 ## Table of Contents
 
 1. [Overview](#overview)
